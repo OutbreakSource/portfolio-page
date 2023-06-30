@@ -47,13 +47,13 @@ body{
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  position: absolute;
-  scale: 3;
+  position: fixed;
+  scale: 2;
   left: 50%;
-  bottom: 0;
+  bottom: 50%;
   border-radius: 50%;
   background: linear-gradient(to top right, #576F72, transparent);
-  animation: ripple 20s infinite;
+  animation: ripple 30s infinite;
   box-shadow: 0px 0px 1px 0px #7D9D9C;
 }
 
