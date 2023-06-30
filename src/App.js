@@ -66,6 +66,11 @@ const App = () => {
 
         <div className="container">
 
+            <div className="textMain">
+                <p>
+                    Hello, I'm Daniel Martinez! I graduated from MSU Denver in December 2022 with a Bachelor's of Applied Sciences in Computer Science, along with a minor in Math. While I primarily code in Java and Python for smaller projects, I have recently ventured into React and am currently learning JavaScript. As a self-taught developer, my projects may not be overly complex, but they serve as important stepping stones for me to strengthen my front-end skills. Below, you'll find videos showcasing my recent projects. Please note that the volume might be low, so headphones are recommended for a better experience. Additionally, the left side of the videos provides context, explaining the purpose and story behind each project.
+                </p>
+            </div>
 
             {projects.map((image, index) => (
                 <div
