@@ -145,16 +145,16 @@ body{
 .textMain {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 1280px;
   height: 720px;
   background-color: #F0EBE3;
+  text-align: left;
   flex-direction: column;
 }
 
 .textMain p {
   font-size: 25px;
-  text-align: center;
+  text-align: left;
   padding: 5px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -184,5 +184,30 @@ body{
   border-radius: 7px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
+}
+
+.miniContainer {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.miniContainer.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
