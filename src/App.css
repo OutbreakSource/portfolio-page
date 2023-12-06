@@ -1,11 +1,11 @@
 .container {
-  padding-top: 100px;
+  padding-top: 50px;
+
   display: flex;
   flex-direction: column;
   gap: 120px;
   align-items: center;
   justify-content: flex-start;
-  padding-bottom: 200px;
   position: relative;
 }
 
@@ -17,7 +17,6 @@
   gap: 5px;
   position: absolute;
   scale: .7;
-
 
 }
 
@@ -36,7 +35,7 @@
 
 
 body{
-  background: #FBFFDC;
+  background: #484f56;
 }
 
 
@@ -146,32 +145,71 @@ body{
   display: flex;
   justify-content: center;
   width: 1280px;
-  height: 720px;
-  background-color: #F0EBE3;
+  background: linear-gradient(to bottom, #e8e8e8, transparent);
   text-align: left;
   flex-direction: column;
+  opacity: 85%;
+  font-size: 20px;
+  padding-left: 5px;
+
+
 }
 
 .textMain p {
-  font-size: 25px;
+  font-size: 80px;
   text-align: left;
-  padding: 5px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
   /* Updated code */
   font-weight: bold;
   color: #000000; /* Change the color to stand out */
+  opacity: 75%;
+
+}
+.textMain h3 {
+  font-size: 25px;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  /* Updated code */
+  font-weight: bold;
+  color: #000000; /* Change the color to stand out */
+  opacity: 75%;
+
+}
+.centered-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px; /* Set a fixed height for the container */
+}
+
+.cropped-zoom-image {
+  width: 250px; /* Set the initial width */
+  height: auto; /* Maintain the aspect ratio */
+  overflow: hidden; /* Hide the overflow to create a cropped effect */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
+.cropped-zoom-image:hover {
+  transform: scale(2); /* Increase the scale factor for the zoom effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .text {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 854px;
   height: 480px;
-  background-color: #E4DCCF;
+  background: linear-gradient(to bottom, #ffffff, transparent 100%);
   flex-direction: column;
 }
 
