@@ -1,5 +1,6 @@
 .container {
   padding-top: 50px;
+  padding-bottom: 50px;
 
   display: flex;
   flex-direction: column;
@@ -142,6 +143,7 @@ body{
 }
 
 .textMain {
+  margin: 0;
   display: flex;
   justify-content: center;
   width: 1280px;
@@ -150,17 +152,17 @@ body{
   flex-direction: column;
   opacity: 85%;
   font-size: 20px;
-  padding-left: 5px;
 
 
 }
 
-.textMain p {
-  font-size: 80px;
-  text-align: left;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.textMain text {
+  margin: 5px;
+  padding-left: 15px;
+  font-size: 25px;
   position: sticky;
+  text-align: left;
+
   /* Updated code */
   font-weight: bold;
   color: #000000; /* Change the color to stand out */
@@ -168,7 +170,11 @@ body{
 
 }
 .textMain h3 {
-  font-size: 25px;
+  width: 1270px;
+
+  margin: 5px;
+
+  font-size: 27px;
   text-align: left;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -194,10 +200,14 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 60px;
+  border-radius: 30%;
+
 }
 
 
 .cropped-zoom-image:hover {
+  padding-top: 10px;
   transform: scale(2); /* Increase the scale factor for the zoom effect */
   display: flex;
   justify-content: center;
