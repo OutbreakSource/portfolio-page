@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 
 const App = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    const targetDate = new Date('2023-01-23');
+    const targetDate = new Date('2022-10-23');
 
     if (isNaN(targetDate.getTime())) {
         console.error("Invalid target date format. Please use the format YYYY-MM-DD.");
