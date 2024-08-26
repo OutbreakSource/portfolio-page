@@ -37,7 +37,7 @@ export const projects = [
         title: "This or That",
         src: "eJg8f2yodyU",
         text: "Looking for a quick and lighthearted project to sharpen my skills in image centering within websites using React, I embarked on a fun adventure. My goal was to load images with perfect sizes and proportions on the screen. Introducing: 'This or That'! The premise of this delightful website is simple—just spot the correct Ed Sheeran image, whether it's on the left (This) or the right (That). Let the game begin!",
-        purp: "Determine which ginger is Ed Sheeran",
+        purp: "Figure out which picture is Ed Sheeran",
         respo: "Solo-project",
         link: "https://github.com/OutbreakSource/this_or_that",
         live: "https://this-or-that-sheeran.netlify.app/",
