@@ -52,9 +52,9 @@ body{
   left: 50%;
   bottom: 50%;
   border-radius: 50%;
-  background: linear-gradient(to top right, #576F72, transparent);
+  background: linear-gradient(to top right, #436583, transparent);
   animation: ripple 30s infinite;
-  box-shadow: 0px 0px 1px 0px #7D9D9C;
+  box-shadow: 0px 0px 1px 0px #ffffff;
 }
 
 .small{
@@ -225,7 +225,7 @@ body{
 
 .text p {
   font-size: 19px;
-  color: #333;
+  color: #000000;
   text-align: center;
   padding: 5px;
   background-color: #fff;
@@ -258,4 +258,5 @@ body{
     opacity: 1;
   }
 }
+
 

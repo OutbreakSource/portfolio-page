@@ -25,7 +25,7 @@ const Project = ({ image }) => {
         >
             <div className="text">
                 <p>{image.title}</p>
-                {(image.api)  && (<p>API is currently off</p>)}
+                {(image.api)  && (<p style={{color: 'red'}}>API is currently off</p>)}
                 <p>Purpose: {image.purp}</p>
                 <p>{image.text}</p>
                 <p>Responsibilities: {image.respo}</p>
@@ -43,10 +43,12 @@ const Project = ({ image }) => {
             <div className={"iconContainer"}>
                 <a href={image.link} target="_blank" rel="noopener noreferrer">
                     <img src={github} alt="GitHub" style={{ scale: 1 }} />
+
                 </a>
                 {image.live != null && (
                     <IconButton href={image.live} target={"_blank"} style={{ right: 8 }}>
                         <ExitToAppIcon style={{ fontSize: "95px" }} />
+                        <text>LIVE SITE!</text>
                     </IconButton>
                 )}
             </div>

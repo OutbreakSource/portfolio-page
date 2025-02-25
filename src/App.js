@@ -25,7 +25,7 @@ const App = () => {
             setYearsOfExperience(parseFloat(yearsDifference));
         };
 
-        const intervalId = setInterval(updateExperience, 20);
+        const intervalId = setInterval(updateExperience, 0);
 
         return () => clearInterval(intervalId);
     }, [targetDate]);
@@ -45,22 +45,18 @@ const App = () => {
 
             <div className="container">
                 <div className="textMain">
-                    <h3>Name:</h3>
                     <text>Daniel Martinez</text>
-                    <h3>City and State:</h3>
                     <text>Denver, CO</text>
-                    <h3>College:</h3>
                     <text>Metropolitan State University of Denver</text>
-                    <h3>Degree:</h3>
                     <text>Bachelors of Applied Science in Computer Science with a minor in math</text>
-                    <h3>Primary languages:</h3>
-                    <text>Java and Python</text>
+                    <h3>Tools and Languages:</h3>
+                    <text>Java, Python, GCP, React.js</text>
                     <h3>Years of experience:</h3>
                     <text>{yearsOfExperience}</text>
                     <h3>Current employer:</h3>
                     <text>Charles Schwab</text>
                     <h3>Current role:</h3>
-                    <text>Associate Software Engineer, SDET focused role</text>
+                    <text>Software Engineer II</text>
                     <div className={"centered-container"}>
 
                         <a href={"https://www.linkedin.com/in/daniel-martinez-8823b21a7/"} target="_blank" rel="noopener noreferrer">

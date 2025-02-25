@@ -1,5 +1,16 @@
 export const projects = [
     {
+        id: 2,
+        title: "GRANEL",
+        src: "94Hxp_Sws1A",
+        text: "As I lean towards more an healthier lifestyle, I developed an API that hosts images for working out and alongside a front-end mobile app to interact with plans and those workouts. The images were web-scrapped and filtered for my liking. These are then used to interact with workout plans I found online to give the user a more diverse and fun experience while learning to exercise",
+        purp: "Workout with multiple plans and variety of equipment available to you",
+        respo: "Solo-project",
+        link: "https://github.com/OutbreakSource/Granel",
+        live: null,
+        api: false
+    },
+    {
         id: 1,
         title: "Lynneah's Study Buddy",
         src: "TbhOnF1yw0E",
@@ -30,17 +41,6 @@ export const projects = [
         respo: "Solo-project",
         link: "https://github.com/OutbreakSource/TutorMassEmail",
         live: null,
-        api: false
-    },
-    {
-        id: 2,
-        title: "This or That",
-        src: "eJg8f2yodyU",
-        text: "Looking for a quick and lighthearted project to sharpen my skills in image centering within websites using React, I embarked on a fun adventure. My goal was to load images with perfect sizes and proportions on the screen. Introducing: 'This or That'! The premise of this delightful website is simple—just spot the correct Ed Sheeran image, whether it's on the left (This) or the right (That). Let the game begin!",
-        purp: "Determine which ginger is Ed Sheeran",
-        respo: "Solo-project",
-        link: "https://github.com/OutbreakSource/this_or_that",
-        live: "https://this-or-that-sheeran.netlify.app/",
         api: false
     }
 ];
